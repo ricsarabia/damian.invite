@@ -1,8 +1,8 @@
-// Countdown Timer Module
+// Countdown Timer
 // El Primer Viaje Alrededor del Sol
 
-export function initCountdown() {
-    const targetDate = new Date('August 8, 2025 16:00:00').getTime();
+function initCountdown() {
+    const targetDate = new Date('August 8, 2026 16:00:00').getTime();
     const daysEl = document.getElementById('days');
     const hoursEl = document.getElementById('hours');
     const minutesEl = document.getElementById('minutes');

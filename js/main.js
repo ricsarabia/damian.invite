@@ -1,8 +1,5 @@
-// Main JavaScript Entry Point
+// Main JavaScript
 // El Primer Viaje Alrededor del Sol
-
-import { initCountdown } from './countdown.js';
-import { initRSVP } from './rsvp.js';
 
 // Smooth scrolling for navigation links
 function initSmoothScroll() {

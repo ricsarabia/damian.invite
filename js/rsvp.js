@@ -1,7 +1,7 @@
-// RSVP Form Module
+// RSVP Form
 // El Primer Viaje Alrededor del Sol
 
-export function initRSVP() {
+function initRSVP() {
     const rsvpForm = document.getElementById('rsvp-form');
     
     if (!rsvpForm) {
