@@ -17,6 +17,9 @@
     cursor: pointer;
     transition: all 0.2s ease;
     text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .btn-primary {
@@ -63,6 +66,11 @@
     border: 1px solid var(--color-surface-container);
     position: relative;
     overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.invitation-card:hover {
+    box-shadow: var(--shadow-lg);
 }
 
 /* Watercolor Wash */
@@ -88,6 +96,17 @@
     max-width: 300px;
     height: auto;
     border-radius: var(--radius-lg);
+    transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 640px) {
+    .hero-image img {
+        max-width: 200px;
+    }
 }
 
 .hero-text {
@@ -164,6 +183,18 @@
     display: flex;
     align-items: center;
     gap: var(--spacing-stack-gap);
+@media (max-width: 640px) {
+    .section-header {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--spacing-stack-gap);
+    }
+    
+    .section-header .material-symbols-outlined {
+        font-size: 28px;
+    }
+}
+
     margin-bottom: var(--spacing-gutter);
 }
 
@@ -177,6 +208,12 @@
     display: flex;
     flex-direction: column;
     gap: var(--spacing-stack-gap);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
 }
 
 .event-icon {
@@ -404,6 +441,20 @@
     align-items: center;
 }
 
+@media (max-width: 640px) {
+    #compact-timer {
+        gap: 8px;
+    }
+    
+    .timer-num {
+        font-size: 16px !important;
+    }
+    
+    .timer-label {
+        font-size: 10px !important;
+    }
+}
+
 .timer-unit {
     display: flex;
     flex-direction: column;
@@ -474,6 +525,33 @@
     }
 }
 
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fade-in 0.6s ease-out;
+}
+
+.fade-in-delay-1 {
+    animation: fade-in 0.6s ease-out 0.2s backwards;
+}
+
+.fade-in-delay-2 {
+    animation: fade-in 0.6s ease-out 0.4s backwards;
+}
+
+.fade-in-delay-3 {
+    animation: fade-in 0.6s ease-out 0.6s backwards;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -488,4 +566,10 @@ footer {
 
 .footer-text {
     color: var(--color-on-surface-variant);
+}
+
+@media (max-width: 640px) {
+    footer {
+        padding: var(--spacing-container-padding-mobile) 0;
+    }
 }
