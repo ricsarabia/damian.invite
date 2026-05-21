@@ -174,29 +174,27 @@
             <form class="rsvp-form" id="rsvp-form">
                 <div class="form-group">
                     <label class="form-label font-label-md">Nombre Completo</label>
-                    <input class="form-input" placeholder="Nombre completo..." required type="text">
-                </div>
-                <div class="form-group">
-                    <label class="form-label font-label-md">Número de Asistentes</label>
-                    <select class="form-select">
-                        <option>1 Persona</option>
-                        <option>2 Personas</option>
-                        <option>3 Personas</option>
-                        <option>4 Personas</option>
-                        <option>5+ Personas</option>
-                    </select>
+                    <input class="form-input" id="rsvp-name" placeholder="Nombre completo..." required type="text">
                 </div>
                 <div class="radio-group">
                     <label class="radio-label">
-                        <input checked class="radio-input" id="assist-yes" name="assist" type="radio">
+                        <input checked class="radio-input" id="assist-yes" name="assist" type="radio" value="yes">
                         <span class="radio-text font-body-md">Confirmar asistencia</span>
                     </label>
                     <label class="radio-label">
-                        <input class="radio-input" id="assist-no" name="assist" type="radio">
+                        <input class="radio-input" id="assist-no" name="assist" type="radio" value="no">
                         <span class="radio-text font-body-md">No es posible asistir</span>
                     </label>
                 </div>
-                <button class="btn-submit" type="submit">Confirmar Asistencia</button>
+                <div class="form-group" id="guest-group">
+                    <label class="form-label font-label-md">Número de Asistentes</label>
+                    <select class="form-select" id="rsvp-guests">
+                        <option value="1">1 - Solo yo</option>
+                        <option value="2">2 Personas</option>
+                        <option value="more">Más (contactar al anfitrión directamente)</option>
+                    </select>
+                </div>
+                <button class="btn-submit" id="rsvp-submit" type="submit">Confirmar Asistencia</button>
             </form>
         </section>
     </main>
