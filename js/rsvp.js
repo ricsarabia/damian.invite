@@ -1,10 +1,9 @@
 // RSVP Form
 // El Primer Viaje Alrededor del Sol
 
-// TODO: Replace with your deployed Google Apps Script URL
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySgxOcKG5A4G-aG5B3nNVcBwGQxFW7psnvrr015IyMvrtZCDKYhiMZaIrxYEkdU9GX/exec';
-
 function initRSVP() {
+    // Google Apps Script deployment URL
+    var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySgxOcKG5A4G-aG5B3nNVcBwGQxFW7psnvrr015IyMvrtZCDKYhiMZaIrxYEkdU9GX/exec';
     const rsvpForm = document.getElementById('rsvp-form');
     const guestGroup = document.getElementById('guest-group');
     const assistYes = document.getElementById('assist-yes');
