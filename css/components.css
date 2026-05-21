@@ -245,68 +245,124 @@
 }
 
 /* Party Section */
+#fiesta {
+    background-color: var(--color-primary-container);
+    color: var(--color-on-primary-container);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    #fiesta {
+        flex-direction: row;
+    }
+}
+
 .party-image-container {
+    width: 100%;
+    min-height: 250px;
     position: relative;
-    margin-bottom: var(--spacing-gutter);
+}
+
+@media (min-width: 768px) {
+    .party-image-container {
+        width: 50%;
+        min-height: 300px;
+    }
 }
 
 .party-image {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: auto;
-    border-radius: var(--radius-lg);
+    height: 100%;
     object-fit: cover;
+    opacity: 0.8;
 }
 
 .party-gradient {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50%;
-    background: linear-gradient(to top, 
-        rgba(5, 17, 37, 0.8) 0%, 
-        transparent 100%);
-    border-radius: var(--radius-lg);
+    inset: 0;
+    background: linear-gradient(to top, var(--color-primary-container), transparent);
     pointer-events: none;
 }
 
+@media (min-width: 768px) {
+    .party-gradient {
+        background: linear-gradient(to right, transparent, var(--color-primary-container));
+    }
+}
+
 .party-content {
-    position: relative;
-    z-index: 1;
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+@media (min-width: 768px) {
+    .party-content {
+        width: 50%;
+        padding: 48px;
+    }
 }
 
 .party-header {
-    margin-bottom: var(--spacing-gutter);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .party-title {
-    margin-bottom: var(--spacing-stack-gap);
+    color: var(--color-secondary-fixed);
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .party-title {
+        font-size: 32px;
+    }
 }
 
 .party-subtitle {
-    color: var(--color-on-surface-variant);
+    color: var(--color-primary-fixed);
 }
 
 .party-location {
     display: flex;
     align-items: flex-start;
-    gap: var(--spacing-stack-gap);
-    margin-bottom: var(--spacing-gutter);
+    gap: 16px;
 }
 
 .party-location-icon {
+    margin-top: 4px;
+    color: var(--color-secondary-fixed);
     font-size: 28px;
-    color: var(--color-primary);
     flex-shrink: 0;
 }
 
 .party-location-name {
+    font-size: 18px;
+    font-family: var(--font-headline-sm);
     font-weight: 700;
     margin-bottom: 4px;
 }
 
+@media (min-width: 768px) {
+    .party-location-name {
+        font-size: 24px;
+    }
+}
+
 .party-location-address {
-    color: var(--color-on-surface-variant);
+    font-size: 14px;
+    opacity: 0.8;
 }
 
 /* RSVP Section */

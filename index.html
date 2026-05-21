@@ -97,62 +97,70 @@
 
         <!-- Baptism Section -->
         <section id="bautismo" class="fade-in-delay-2">
-            <section class="invitation-card" id="bautismo-inner" style="display: flex; flex-direction: column; overflow: hidden; background-color: var(--color-surface-container-low); min-height: 400px; border: 1px solid rgba(212, 175, 55, 0.2); box-shadow: 0 10px 30px rgba(27, 38, 59, 0.08); border-radius: 24px;">
-                <div class="party-image-container" style="width: 100%; min-height: 250px; position: relative;">
-                    <img alt="Church illustration" class="party-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFlOeAkySsCkmecwp_MIJWiCoNMoSahrVV8D_sXySeWDiWO4FJuq0S77XQKCIiIr0ssWif5NhVoWbwf1GJYH-aLOOcK27rACUiUq2weo6YU14QfsNZZ0sDmlnjqfR_eaX9dYFhYBdcmG7CZn4LVWR-tGgGubTCSkpd3-cht23yq8dybwgwdmiR6AWTGznEQTVHDAAoa7_5IxCRJPdLMOAxiGkR_jdBKHOn0jP8KaTp7pwuybxhU4j49QSoNp0mz75dGOerDxXWG_w" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.9;">
-                    <div class="party-gradient" style="position: absolute; inset: 0; background: linear-gradient(to top, var(--color-surface-container-low), transparent);"></div>
+            <div id="bautismo-inner" style="display: flex; flex-direction: column; overflow: hidden; background-color: #f5f3ef; padding: 0; min-height: 400px; border: 1px solid rgba(212, 175, 55, 0.2); box-shadow: 0 10px 30px rgba(27, 38, 59, 0.08); border-radius: 24px;">
+                <div style="width: 100%; min-height: 250px; position: relative;">
+                    <img alt="Church illustration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFlOeAkySsCkmecwp_MIJWiCoNMoSahrVV8D_sXySeWDiWO4FJuq0S77XQKCIiIr0ssWif5NhVoWbwf1GJYH-aLOOcK27rACUiUq2weo6YU14QfsNZZ0sDmlnjqfR_eaX9dYFhYBdcmG7CZn4LVWR-tGgGubTCSkpd3-cht23yq8dybwgwdmiR6AWTGznEQTVHDAAoa7_5IxCRJPdLMOAxiGkR_jdBKHOn0jP8KaTp7pwuybxhU4j49QSoNp0mz75dGOerDxXWG_w" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.9;">
+                    <div id="bautismo-gradient" style="position: absolute; inset: 0; background: linear-gradient(to top, #f5f3ef, transparent);"></div>
                 </div>
-                <div class="party-content" style="width: 100%; padding: 32px; display: flex; flex-direction: column; justify-content: center; gap: 24px;">
-                    <div class="party-header">
-                        <h2 class="party-title font-headline-md" style="color: var(--color-primary); font-size: 24px;">Celebración Religiosa</h2>
-                        <p class="font-body-md" style="color: var(--color-on-surface-variant); margin-top: 4px; margin-bottom: 8px;">Comparte en familia la celebración de la fe y el primer sacramento de Gonzalo Damián</p>
-                        <p class="party-subtitle font-body-lg" style="color: var(--color-on-surface-variant); display: flex; align-items: center; gap: 8px;">
+                <div style="width: 100%; padding: 32px; display: flex; flex-direction: column; justify-content: center; gap: 24px;">
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <h2 class="font-headline-md" style="color: #051125; font-size: 24px;">Celebración Religiosa</h2>
+                        <p class="font-body-md" style="color: #45474d; margin-top: 4px; margin-bottom: 8px;">Comparte en familia la celebración de la fe y el primer sacramento de Gonzalo Damián</p>
+                        <p class="font-body-lg" style="color: #45474d; display: flex; align-items: center; gap: 8px;">
                             <span class="material-symbols-outlined" style="font-size: 20px;">calendar_today</span> Sábado, 08 de Agosto • 16:00 hrs
                         </p>
                     </div>
-                    <div class="party-location" style="display: flex; align-items: flex-start; gap: 16px;">
-                        <span class="material-symbols-outlined party-location-icon" style="color: var(--color-secondary);">church</span>
+                    <div style="display: flex; align-items: flex-start; gap: 16px;">
+                        <span class="material-symbols-outlined" style="margin-top: 4px; color: #735c00;">church</span>
                         <div>
-                            <p class="party-location-name" style="font-size: 18px; font-family: var(--font-headline-sm); font-weight: 700;">Iglesia San Miguel Arcángel</p>
-                            <p class="party-location-address font-body-md" style="font-size: 14px; opacity: 0.8;">C. Lerma 50, Las Fuentes, 57600 Cdad. Nezahualcóyotl</p>
+                            <p style="font-size: 18px; font-family: 'Quicksand', sans-serif; font-weight: 700; color: #051125;">Iglesia San Miguel Arcángel</p>
+                            <p class="font-body-md" style="font-size: 14px; opacity: 0.8; color: #45474d;">C. Lerma 50, Las Fuentes, 57600 Cdad. Nezahualcóyotl</p>
                         </div>
                     </div>
                     <a class="btn-secondary" href="https://maps.app.goo.gl/YG6fbSiSq2H29ZPa9" target="_blank">Ver mapa <span class="material-symbols-outlined" style="font-size: 18px; margin-left: 4px;">open_in_new</span></a>
                 </div>
-            </section>
+            </div>
             <style>
-                #bautismo-inner { flex-direction: column; }
                 @media (min-width: 768px) {
                     #bautismo-inner { flex-direction: row !important; }
-                    #bautismo-inner .party-image-container { width: 50% !important; min-height: 400px !important; }
-                    #bautismo-inner .party-gradient { background: linear-gradient(to right, transparent, var(--color-surface-container-low)) !important; }
-                    #bautismo-inner .party-content { width: 50% !important; padding: 48px !important; }
-                    #bautismo-inner .party-title { font-size: 32px !important; }
+                    #bautismo-inner > div:first-child { width: 50% !important; min-height: 400px !important; }
+                    #bautismo-inner > div:nth-child(2) { width: 50% !important; padding: 48px !important; }
+                    #bautismo-gradient { background: linear-gradient(to right, transparent, #f5f3ef) !important; }
+                    #bautismo-inner h2 { font-size: 32px !important; }
                 }
             </style>
         </section>
 
         <!-- Party Section -->
-        <section class="invitation-card fade-in-delay-2" id="fiesta">
-            <div class="party-image-container">
-                <img alt="Fiesta decor" class="party-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADr9I27RNWd2cPMoRVTuhcYpKrn1NKJY-dyZfQsx_UEEp_8aN02Al7QsOUJ2fj9iSk9AfearqGyqtkimB3nYLhyrjxxLr6-hc5wfFbpI-0IEuM9I_qMOG-Oc6_2mapP0lHb96owFCnStLDM9FwTv7NoZqlRu3PAj1AnAn6wk1gZN0plwbfgBrm0nuA7vT7Rm-fBKQmcct4QYZjL5nsm5haQ_IMCEf6MzNSqtLLQZxxmE5ljWbK_LG-keuqIFAg5CScX6Lz8uU28mI">
-                <div class="party-gradient"></div>
+        <section class="fade-in-delay-2" id="fiesta" style="background-color: #1b263b; color: #828da7; padding: 0; display: flex; flex-direction: column; min-height: 400px; overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.2); box-shadow: 0 10px 30px rgba(27, 38, 59, 0.08); border-radius: 24px;">
+            <div style="width: 100%; min-height: 250px; position: relative;">
+                <img alt="Fiesta decor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADr9I27RNWd2cPMoRVTuhcYpKrn1NKJY-dyZfQsx_UEEp_8aN02Al7QsOUJ2fj9iSk9AfearqGyqtkimB3nYLhyrjxxLr6-hc5wfFbpI-0IEuM9I_qMOG-Oc6_2mapP0lHb96owFCnStLDM9FwTv7NoZqlRu3PAj1AnAn6wk1gZN0plwbfgBrm0nuA7vT7Rm-fBKQmcct4QYZjL5nsm5haQ_IMCEf6MzNSqtLLQZxxmE5ljWbK_LG-keuqIFAg5CScX6Lz8uU28mI" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                <div id="fiesta-gradient" style="position: absolute; inset: 0; background: linear-gradient(to top, #1b263b, transparent);"></div>
             </div>
-            <div class="party-content">
-                <div class="party-header">
-                    <h2 class="party-title font-headline-md">Fiesta de Cumpleaños</h2>
-                    <p class="party-subtitle font-body-lg">Continúa la celebración con una recepción en honor al primer año de Gonzalo Damián.</p>
+            <div style="width: 100%; padding: 32px; display: flex; flex-direction: column; justify-content: center; gap: 24px;">
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <h2 class="font-headline-md" style="color: #ffe088; font-size: 24px;">Fiesta de Cumpleaños</h2>
+                    <p class="font-body-lg" style="color: #bbc6e2;">Continúa la celebración con una recepción en honor al primer año de Gonzalo Damián.</p>
                 </div>
-                <div class="party-location"><span class="material-symbols-outlined party-location-icon">schedule</span><div><p class="party-subtitle font-body-lg" style="color: var(--color-primary-fixed); margin: 0;">Sábado, 08 de Agosto • 18:00 hrs</p></div></div>
-                <div class="party-location">
-                    <span class="material-symbols-outlined party-location-icon">location_city</span>
+                <div style="display: flex; align-items: flex-start; gap: 16px;"><span class="material-symbols-outlined" style="margin-top: 4px; color: #ffe088;">schedule</span><div><p class="font-body-lg" style="color: #bbc6e2; margin: 0;">Sábado, 08 de Agosto • 18:00 hrs</p></div></div>
+                <div style="display: flex; align-items: flex-start; gap: 16px;">
+                    <span class="material-symbols-outlined" style="margin-top: 4px; color: #ffe088;">location_city</span>
                     <div>
-                        <p class="party-location-name">Salón Bugambilia</p>
-                        <p class="party-location-address font-body-md">Av Cuauhtémoc 245, mexico II, 57620 Cdad. Nezahualcóyotl</p>
+                        <p style="font-size: 18px; font-family: 'Quicksand', sans-serif; font-weight: 700;">Salón Bugambilia</p>
+                        <p class="font-body-md" style="font-size: 14px; opacity: 0.8;">Av Cuauhtémoc 245, mexico II, 57620 Cdad. Nezahualcóyotl</p>
                     </div>
                 </div>
-                <a class="event-link" href="https://maps.app.goo.gl/5KgwAtYLeMeHrjbB9" target="_blank">Ver mapa <span class="material-symbols-outlined">open_in_new</span></a>
+                <a class="btn-secondary" href="https://maps.app.goo.gl/5KgwAtYLeMeHrjbB9" target="_blank">Ver mapa <span class="material-symbols-outlined" style="font-size: 18px; margin-left: 4px;">open_in_new</span></a>
             </div>
+            <style>
+                @media (min-width: 768px) {
+                    #fiesta { flex-direction: row !important; }
+                    #fiesta > div:first-child { width: 50% !important; min-height: 300px !important; }
+                    #fiesta > div:nth-child(2) { width: 50% !important; padding: 48px !important; }
+                    #fiesta-gradient { background: linear-gradient(to right, transparent, #1b263b) !important; }
+                    #fiesta h2 { font-size: 32px !important; }
+                }
+            </style>
         </section>
 
         <!-- RSVP Section -->
