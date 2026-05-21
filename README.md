@@ -20,9 +20,9 @@ The invitation follows a single-page scrolling structure to keep the experience 
 
 ### 2.2 Sections
 1.  **Hero:** Features a hand-drawn watercolor Earth with a smiling face and a small golden rocket.
-2.  **Honor Section:** Acknowledgment of parents (**Adriana Campos and Herlindo Miguel**) and godparents (**Nuria Bastida and Sergio Urbina**).
+2.  **Honor Section:** Acknowledgment of parents (**Adriana Campos and Herlindo Miguel**) and godparents (**Nuria Bastida and Sergio Urbina**).œ
 3.  **Baptism Details:** Event logistics for the religious ceremony at **Iglesia (C. Lerma 50)**. Includes "Ver mapa" link.
-4.  **Birthday Party Details:** Logistics for the party at **Salon Bugambilia**. Includes "Cómo Llegar" link.
+4.  **Birthday Party Details:** Logistics for the party at **Salón Bugambilia**. Includes "Cómo Llegar" link.
 5.  **Interactive RSVP:** A dynamic form that transitions into confirmation states without page reloads.
 6.  **Footer:** Copyright information and a final mention of Gonzalo Damián.
 

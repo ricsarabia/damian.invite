@@ -30,8 +30,8 @@ function initRSVP() {
                         </div>
                     </div>
                     <div style="display: flex; flex-direction: column; gap: 16px;">
-                        <h2 class="rsvp-response-title font-headline-md">¡Confirmado!</h2>
-                        <p class="rsvp-response-text font-body-lg">¡Estamos en la luna! Nos vemos bajo las estrellas para celebrar el bautizo y el primer añito de Gonzalo.</p>
+                        <h2 class="rsvp-response-title font-headline-md">Asistencia confirmada</h2>
+                        <p class="rsvp-response-text font-body-lg">La confirmación ha sido registrada correctamente para la celebración de Gonzalo Damián.</p>
                     </div>
                     <div style="display: flex; align-items: center; gap: 8px; color: var(--color-secondary); padding-top: 16px;">
                         <span style="width: 32px; height: 1px; background-color: var(--color-secondary-fixed);"></span>
@@ -46,9 +46,9 @@ function initRSVP() {
                         <span class="material-symbols-outlined rsvp-miss-icon" style="font-variation-settings: 'FILL' 1;">nights_stay</span>
                     </div>
                     <div style="display: flex; flex-direction: column; gap: 16px;">
-                        <h3 class="rsvp-response-title font-headline-md">¡Te extrañaremos!</h3>
+                        <h3 class="rsvp-response-title font-headline-md">Notificación recibida</h3>
                         <p class="rsvp-response-text font-body-lg">
-                          Lamentamos que no puedas acompañar a Gonzalo en su primer viaje alrededor del sol, pero te sentiremos cerca. ¡Gracias por avisarnos!
+                          Se ha registrado la imposibilidad de asistir a la celebración del primer viaje alrededor del sol de Gonzalo Damián. Gracias por informar.
                         </p>
                     </div>
                     <div style="padding-top: 16px;">

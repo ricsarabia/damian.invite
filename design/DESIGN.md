@@ -21,10 +21,10 @@ colors:
   primary-container: '#1b263b'
   on-primary-container: '#828da7'
   inverse-primary: '#bbc6e2'
-  secondary: '#735c00'
+  secondary: '#705d00'
   on-secondary: '#ffffff'
-  secondary-container: '#fed65b'
-  on-secondary-container: '#745c00'
+  secondary-container: '#fcd400'
+  on-secondary-container: '#6e5c00'
   tertiary: '#001225'
   on-tertiary: '#ffffff'
   tertiary-container: '#0f273f'
@@ -37,10 +37,10 @@ colors:
   primary-fixed-dim: '#bbc6e2'
   on-primary-fixed: '#101b30'
   on-primary-fixed-variant: '#3c475d'
-  secondary-fixed: '#ffe088'
-  secondary-fixed-dim: '#e9c349'
-  on-secondary-fixed: '#241a00'
-  on-secondary-fixed-variant: '#574500'
+  secondary-fixed: '#ffe16d'
+  secondary-fixed-dim: '#e9c400'
+  on-secondary-fixed: '#221b00'
+  on-secondary-fixed-variant: '#544600'
   tertiary-fixed: '#d1e4ff'
   tertiary-fixed-dim: '#b2c8e7'
   on-tertiary-fixed: '#031d34'
@@ -109,12 +109,12 @@ The style is **Playful & Dreamy**, leaning heavily into a modern **Watercolor Ae
 
 ## Colors
 
-The palette is inspired by the transition from twilight to a starry night. 
+The palette is inspired by the transition from twilight to a starry night, now featuring a more vibrant celestial accent. 
 
 - **Primary (Deep Navy):** Used for core branding elements and primary buttons, representing the vastness of the night sky.
 - **Background (Warm Cream):** Replaces pure white to provide a tactile, "cotton paper" feel that reduces eye strain and adds warmth.
 - **Surface (Soft Cloud Blue):** Used for secondary containers and decorative backgrounds to create depth without harsh contrast.
-- **Accent (Soft Metallic Gold):** Reserved for "magical" moments—stars, sun rays, and primary calls to action.
+- **Accent (Vivid Gold):** A bright, sun-like yellow reserved for "magical" moments—stars, sun rays, and primary calls to action.
 - **Muted (Dusty Blue):** Ideal for borders, icons, and secondary text.
 - **Text (Darkest Night):** Ensuring high legibility while maintaining the cool-toned harmony of the palette.
 
@@ -152,9 +152,9 @@ The shape language is dominated by **Extra Large Radii**.
 
 ## Components
 
-- **Primary Button:** Large, rounded (24px), using the Primary Navy background with Gold or Cream text. Include a subtle hover lift effect.
-- **Invitation Card:** The hero component. Features a 24px corner radius, a subtle watercolor texture overlay, and a Gold accent border (1px).
+- **Primary Button:** Large, rounded (24px), using the Primary Navy background with Vivid Gold or Cream text. Include a subtle hover lift effect.
+- **Invitation Card:** The hero component. Features a 24px corner radius, a subtle watercolor texture overlay, and a Vivid Gold accent border (1px).
 - **RSVP Chips:** Rounded "pill" shapes for selecting guest counts or meal preferences. Use Cloud Blue for the unselected state and Primary Navy for selected.
 - **Input Fields:** Soft Cloud Blue backgrounds with a 1px Dusty Blue border. Focus states should transition the border to Primary Navy.
 - **Illustrative Dividers:** Instead of lines, use horizontal arrangements of hand-drawn stars or a soft watercolor "swipe" to separate content sections.
-- **Feature Icons:** Hand-drawn SVG rockets, moons, and suns, primarily in Gold or Dusty Blue, used to highlight key event details like "Time" or "Location."
+- **Feature Icons:** Hand-drawn SVG rockets, moons, and suns, primarily in Vivid Gold or Dusty Blue, used to highlight key event details like "Time" or "Location."

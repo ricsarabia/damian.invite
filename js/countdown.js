@@ -20,7 +20,7 @@ function initCountdown() {
 
         if (distance < 0) {
             clearInterval(timerInterval);
-            timerContainer.innerHTML = '<span style="font-size: 18px; font-weight: bold; color: var(--color-primary);">¡Llegó el día!</span>';
+            timerContainer.innerHTML = '<span style="font-size: 18px; font-weight: bold; color: var(--color-primary);">Evento iniciado</span>';
             return;
         }
 
