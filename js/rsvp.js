@@ -6,6 +6,8 @@ function initRSVP() {
     var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySgxOcKG5A4G-aG5B3nNVcBwGQxFW7psnvrr015IyMvrtZCDKYhiMZaIrxYEkdU9GX/exec';
     const rsvpForm = document.getElementById('rsvp-form');
     const guestGroup = document.getElementById('guest-group');
+    const guestHint = document.getElementById('guest-hint');
+    const guestsSelect = document.getElementById('rsvp-guests');
     const assistYes = document.getElementById('assist-yes');
     const assistNo = document.getElementById('assist-no');
 
@@ -23,9 +25,20 @@ function initRSVP() {
         }
     }
 
+    // Toggle hint text when "more" is selected
+    function toggleGuestHint() {
+        if (guestsSelect.value === 'more') {
+            guestHint.style.display = '';
+        } else {
+            guestHint.style.display = 'none';
+        }
+    }
+
     assistYes.addEventListener('change', toggleGuestSelector);
     assistNo.addEventListener('change', toggleGuestSelector);
+    guestsSelect.addEventListener('change', toggleGuestHint);
     toggleGuestSelector();
+    toggleGuestHint();
 
     rsvpForm.addEventListener('submit', async function(e) {
         e.preventDefault();
